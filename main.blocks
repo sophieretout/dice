@@ -1,19 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="s8z*|puu?NGH$EW=I~#d" x="0" y="0"></block><block type="device_forever" id="mu=k6~bg5]{7X,VX@SB6" x="205" y="0"></block><block type="device_gesture_event" id="Vz8kAC8Q=kI$Pnr?%=?1" x="5" y="163"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="?*uqsmEY[nk|6**PUFT1"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="A6)c#g;G5Rro%;7{|Da^" x="0" y="0"></block><block type="device_forever" id="!oK:ZyhW_m^{o}0diS:]" x="205" y="0"></block><block type="function_definition" id="f~QfIA6[_s9|:F(`R5Qm" x="474" y="126"><mutation name="dice roll" functionid="%@)yB!!d/(=Ga2ql)~55"></mutation><field name="function_name">dice roll</field><statement name="STACK"><block type="device_show_leds" id="4UVJ61~o?gWw]mS|TW$w"><field name="LEDS">`
         # # # # # 
         # # . . # 
         # . # . # 
         # . . # # 
         # # # # #
-        `</field><next><block type="device_show_leds" id="6}m$#uYKkDJOMMqXNH3W"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="nsRE}rI]`?[_Wwdm}w71"><field name="LEDS">`
         # # # # # 
         # . . . # 
         # # . # # 
         # . . . # 
         # # # # #
-        `</field><next><block type="device_show_leds" id="eckxB.Rn*mv]G.*[:fE_"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="n0]%T!W{ys`?U2:KZQNI"><field name="LEDS">`
         # # # # # 
         # . . . # 
         # . # . # 
         # . . . # 
         # # # # #
-        `</field><next><block type="device_show_number" id="h(,U__GFO55@Nbf|U:/q"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="Cxr4n[#*10)*xWAdS)|R"><value name="min"><shadow type="math_number" id="{ytyM=dcRGbpnC1q{`rf"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="7lxSXMzErtHb:aUu,SMh"><field name="NUM">6</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
+        `</field><next><block type="device_show_number" id="z#hb6VqpW8z0J_=,cr(5"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="~nD5*ypAP[4qv_ksgDwa"><value name="min"><shadow type="math_number" id="S0n~,+U+v9bh:,RPBJ?O"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id=",iRcPIilCYlZCe`iDhR="><field name="NUM">6</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="gvRI=^8/yg*S=%d,k~qe" x="31" y="152"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="1$eIifnW*8E)=be-ywc;"><mutation name="dice roll" functionid="%@)yB!!d/(=Ga2ql)~55"></mutation></block></statement></block><block type="device_button_event" id="3DsF(OpD=ae0`v(!YUvl" x="26" y="292"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="function_call" id="LLnEk_(rGa?-aG(vbS8O"><mutation name="dice roll" functionid="%@)yB!!d/(=Ga2ql)~55"></mutation></block></statement></block><block type="device_button_event" id="ah]j`UB_vRo=(pRSn`BP" x="27" y="438"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="function_call" id="8=00B6e6+~tTUr~jbpjF"><mutation name="dice roll" functionid="%@)yB!!d/(=Ga2ql)~55"></mutation></block></statement></block></xml>
